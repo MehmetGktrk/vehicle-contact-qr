@@ -1,0 +1,24 @@
+{
+  "name": "vehicle-contact-qr",
+  "version": "1.0.0",
+  "description": "Vehicle contact management REST API",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix"
+  },
+  "keywords": ["vehicle", "contact", "qr", "api"],
+  "author": "Mehmet Göktürk",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
