@@ -13,12 +13,18 @@
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint src/**/*.js --fix"
   },
-  "keywords": ["vehicle", "contact", "qr", "api"],
+  "keywords": [
+    "vehicle",
+    "contact",
+    "qr",
+    "api"
+  ],
   "author": "Mehmet Göktürk",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongodb": "^7.2.0"
   }
 }
